@@ -1,0 +1,381 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap');
+/* The COlor Pallet */
+.ColorPallet{
+    color: #3c3c3d;
+    color:#2f333a;
+    color:#1e1e1e;
+    color:#0098ff;
+    color:#0065a9;
+}
+/* Scrool Bar Configurations */
+body::-webkit-scrollbar{
+    /* Display */
+    width: 0.5rem;
+}
+body::-webkit-scrollbar-track{
+    /* Coloring & fonts */
+    background-color: #2f333a;
+    /* broder */
+    border-radius:10rem;
+}
+body::-webkit-scrollbar-thumb{
+    /* fonts and colors */
+    background-color: #0065a9;
+    /* borders */
+    border-radius: 10rem;
+    /* margin and padding */
+}
+body::-webkit-scrollbar-thumb:hover{
+    background-color: #0098ff;
+}
+body::-webkit-scrollbar-corner{background-color: #2f333a;border-radius: 1rem;}
+/* Body Configurations */
+html{
+    /* display */
+    scroll-behavior:smooth;
+    /* coloring and fonts */
+    color:white !important;
+    font-family: 'Cairo', sans-serif;
+    font-size: 20px;
+    /* margin and padding */
+    margin:0;
+    padding:0;
+    background-color: #1e1e1e;
+}
+a{color: #0098ff;text-decoration: none;}
+a:visited{color: #0098ff;}
+a:hover {color: #0065a9;}
+.show{display: block;}
+p{background-color: transparent;}
+h1{background-color: transparent;}
+h2{background-color: transparent;}
+h3{background-color: transparent;}
+h4{background-color: transparent;}
+h5{background-color: transparent;}
+h6{background-color: transparent;}
+img{background-color: transparent;}
+/* img{border-radius: 4rem ;height: auto;} */
+.Title{
+    text-align: center;
+}
+.Cutter-Line{
+    /* Display */
+	height: 5px;
+	width: 70%;
+    /* coloring and fonts */
+    background-color:rgb(73, 71, 71);
+    /* borders */
+	border-radius: 30px;	
+    /* margins & paddings */
+	margin: 0 auto;
+	margin-block: 10px;
+}
+/* The Navigation Bar Confugurations */
+nav{/*The Nav Bar  */
+    width: 100%;
+    height: 30%;
+    background-color: transparent;
+    position:static;
+}
+.AboutButton{display: none;}
+.ProjButton{display: none;}
+.TutorButton{display: none;}
+.Nav-Logo{/* The Logo In the navbar */
+    /* Display */
+    cursor: pointer;
+    width: 8rem;
+    height: auto;
+    zoom: 150%;
+    /* borders */
+    border-radius: 25px;
+    /* Margin & padding */
+} 
+.Header-Links{/*Header Links */
+    /* Display */
+    display: flex;
+    /* coloring & fonts */
+    text-align: right;
+    float: right;
+    text-decoration: none;
+    /* Maring & Padding */
+    transform: translateY(-6rem);
+}
+.Header-Links-Button{
+    /* display */
+    width:fit-content;
+    height: min-content;
+    /* coloring and fonts */
+    font-size: 0.9rem !important;
+}
+.HeaderInvisBtn{
+    /* margin and padding */
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+main{margin-top:1rem;}
+/* Configurations For Some Random Main Elements */
+.Notes-Code-snipits{/*Confugurations for The Code Snipits */
+    /* Display */
+    height:fit-content;
+    width: 40%;
+    right: 50%;
+    left: 50%;
+    /* Coloring and fonts */
+    background-color: rgb(73, 71, 71);
+    font-family: Fira Code FV;
+    color:#0065a9;
+    font-size: 0.5rem;
+    /* Borders */
+    border-color: transparent;
+    border-radius: 10px;
+    /* Shadoes */
+    border-left-color: #0098ff;
+    border-left-width: 9px;
+}
+.Buttons{/*Buttons Configurations */
+    /* Display */
+    cursor: pointer;
+    /* Coloring  and Fonts*/
+    background-color: rgb(73, 71, 71);
+    border-color: #0098ff;
+    color:white;
+    text-decoration: none;
+    font-size: 1rem;
+    text-align: center ;
+    font-style:italic;
+    /* Borders */
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    /* Shadoes */
+    box-shadow: 0 2px 2px 0.5px #0098ff, 0 6px 20px 1px #0098ff;
+    /* transtions */
+    transition: all 200ms ease;
+    /* Margin & Padding */
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.Inputs{
+    /* Display */
+    width: min-content;
+    cursor:text;
+    /* Coloring  and Fonts*/
+    background-color: rgb(73, 71, 71);
+    border-color: #0098ff;
+    color:white;
+    font-size: 1rem;
+    /* Borders */
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    /* Shadoes */
+    box-shadow: 0 2px 2px 0.5px #0098ff, 0 6px 20px 1px #0098ff;
+    /* transetions */
+    
+    /* Margin & Padding */
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.InvisBtn{
+    /* display */
+    width: auto;
+    height: auto;
+    /* coloring and fonts */
+    background-color: transparent;
+    /* borders */
+    border-radius: 5rem;
+    border-color: transparent;
+}
+/* Hover Effect for the buttons*/
+.Buttons:hover {
+    /* Colors And fonts */
+    background-color: #0098ff;
+    color:black;
+    /* Borders */
+    border-color: transparent;
+    border-radius: 10px;
+    /* Transforms */
+    transform: translateY(-2px);
+    transition-duration: 200ms;
+    /* shadoes */
+    box-shadow: 0 2px 2px 0.5px #0098ff, 0 6px 20px 1px #0098ff;
+}
+.Buttons:focus{
+    /* Colors And fonts */
+    background-color: #0098ff;
+    color:black;
+    /* Borders */
+    border-color: transparent;
+    /* Transforms */
+    transform: translateY(-2px);
+    transition-duration: 200ms;
+    /* shadoes */
+    box-shadow: 0 2px 2px 0.5px #0098ff, 0 6px 20px 1px #0098ff;
+}
+.Buttons:focus-visible{
+    /* Colors And fonts */
+    background-color: #0098ff;
+    color:black;
+    /* Borders */
+    border-color: transparent;
+    /* Transforms */
+    transform: translateY(-2px);
+    transition-duration: 200ms;
+    /* shadoes */
+    box-shadow: 0 2px 2px 0.5px #0098ff, 0 6px 20px 1px #0098ff;
+}
+.Buttons:focus{
+    /* Colors And fonts */
+    background-color: #0098ff;
+    color:black;
+    /* Borders */
+    border-color: transparent;
+    /* Transforms */
+    transform: translateY(-2px);
+    transition-duration: 200ms;
+    /* shadoes */
+    box-shadow: 0 2px 2px 0.5px #0098ff, 0 6px 20px 1px #0098ff;
+}
+.Inputs:focus {
+    /* Colors And fonts */
+    background-color: #0098ff;
+    color:black;
+    /* Borders */
+    border-color: transparent;
+    /* Transforms */
+    transform: translateY(-2px);
+    transition-duration: 200ms;
+    /* shadoes */
+    box-shadow: 0 2px 2px 0.5px #0098ff, 0 6px 20px 1px #0098ff;
+}
+
+/* DropDown Configurations */
+.DropDown-Button {
+  padding: 16px;
+  font-size: 16px;
+  cursor:pointer;
+}
+.DropDown{
+    position: relative;
+    display: inline-block;
+}
+.DropDown-Elements{
+  /* Display */
+    display: none;
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    float: left;
+    z-index:5;
+    /* coloring and fonts */
+    background-color: #2f333a;
+    /* Borders */
+    border-radius: 30px;
+    /* shadoes */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    /* margin and padding */
+    margin-top:0.5rem;
+    margin-left: -6rem;
+}
+.DropDown-Elements-Links{
+    background-color: #2f333a;
+    width: fit-content;
+    height: fit-content;
+    float: left;
+    width: 100%;
+    color: white;
+    font-size: 1rem !important;
+    /* borders */
+    border: none;
+    border-radius: 10px;
+    /* margin & padding */
+    padding:1rem 1rem 1rem 1rem;
+}
+.DropDown-Elements-Links:hover{
+    background-color: #3c3c3d;
+    width: fit-content;
+    height: fit-content;
+    float: left;
+    width: 100%;
+    color: white;
+    font-size: 1rem !important;
+    /* borders */
+    border: none;
+    border-radius: 10px;
+    /* margin & padding */
+    padding:1rem 1rem 1rem 1rem;
+}
+.DropDown-Elements-Links:focus{
+    background-color: #3c3c3d;
+    width: fit-content;
+    height: fit-content;
+    float: left;
+    width: 100%;
+    color: white;
+    font-size: 1rem !important;
+    /* borders */
+    border: none;
+    border-radius: 10px;
+    /* margin & padding */
+    padding:1rem 1rem 1rem 1rem;
+}
+/* .DropDown-Button:focus + .DropDown-Elements {display:block;} */
+.DropDown-Elements:hover{display: block;}
+/* The Website's Footer  */
+footer{/* The Footer */
+    /* Coloring And Fonts */
+    background-color: #2f333a;
+    text-align: center;
+    color:whitesmoke;
+    /* Display */
+    /* width:fit-content; */
+    height: fit-content;
+    /* Borders */
+    border-radius: 30px;
+}
+.Footer-Img{/* Footer Images */
+    /* Display */
+    width:50px;
+    height: min-content;
+    /* Coloring */
+    background-color: transparent;
+    color:whitesmoke;
+    /* borders */
+    border-radius: 10px;
+    /* transformations */
+    transform: translateY(17px);
+}
+/* Meadia Queries */
+.temp{display: none;}
+@media screen and (min-width: 1050px) {
+    .AboutButton{
+        display: block;
+    }
+    .ProjButton{
+        display: block;
+    }
+    .TutorButton{
+        display: block;
+    }
+    .temp{
+        display: block;
+    }
+    .Nav-Logo{
+        transform: translateY(1rem)translateX(-1rem);
+        padding-bottom: 15px;
+        padding-left: 15px;
+        padding-right: 5px;    
+    }
+}
