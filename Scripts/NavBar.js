@@ -6,25 +6,6 @@ var NavBarCode=`<nav>
         </button>
     </div>
     <div class="Header-Links">
-        <button  class="Buttons AboutButton Header-Links-Button" onclick="redirectLink('aboutme')">
-            <i class="fa-regular fa-address-card"></i> About Me
-        </button>
-        <button  class="Buttons ProjButton Header-Links-Button" onclick="redirectLink('ProjectsAndBooks')">
-            <i class="fa-solid fa-diagram-project"></i> Projects & <i class="fa-solid fa-graduation-cap"></i>  Certificates
-        </button>
-        <button  class="Buttons TutorButton Header-Links-Button" onclick="redirectLink('Tut')">
-            <i class="fa-solid fa-chalkboard-user"></i>
-            Tutorials
-        </button>     
-        <div class="Search-Menu DropDown ">
-            <button  class="Buttons SearchButton DropDown-Button Header-Links-Button"onclick="toggleContentSR()">
-                <i class="fa-solid fa-magnifying-glass"></i>
-            </button>
-            <div id="Search-Menu-Elments"class="Search-Menu-Elments DropDown-Elements"style="margin-left:-5rem;" >
-                <input type="search "class="Inputs">
-                <button class="Buttons"style="float:left;">Search</button>      
-            </div>
-        </div>      
 
         <div class="NavBar-Menu DropDown">
             <button class="Menu-Button Buttons DropDown-Button Header-Links-Button"id="Menu-Button"onclick="toggleContentSM()">
